@@ -120,8 +120,8 @@ class RobotIdentifier():
 			logger.fatal("Init Classifier")
 		if self.init_ocr() != 0:
 			logger.fatal("Init OCR")
-		# if initialize_rotnet() != 0:
-		# 	logger.fatal("Init RotNet")
+		if initialize_rotnet() != 0:
+			logger.fatal("Init RotNet")
 		if self.init_database() == -1:
 			logger.info("Not using Database")
 
