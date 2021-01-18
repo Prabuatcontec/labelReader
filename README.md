@@ -42,7 +42,7 @@ apt update
 Then, clone the repository:
 
 ```
-git clone https://github.com/ecthros/labelReader
+git clone https://github.com/Prabuatcontec/labelReader
 cd labelReader
 ```
 
