@@ -3,7 +3,6 @@ from __future__ import print_function
 from config import *
 from utils.darknet_classify_image import *
 from utils.keras_classify_image import *
-from utils.azure_ocr import *
 from utils.tesseract_ocr import *
 import utils.logger as logger
 from utils.rotate import *
